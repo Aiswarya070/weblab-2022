@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background</title>
+</head>
+<body>
+    <h1 id="h">This is heading</h1>
+    <p>This is a paragraph</p>
+    <hr>
+    <button click="changeback('yellow')">yellow</button>
+    <button click="changeback('lime')">lime</button>
+    <button click="changeback('orange')">orange</button>
+    <br>
+    <br>
+    <button click="changehead('red')">red</button>"
+    <button click="changehead('green')">green</button>"
+    <button click="changehead('blue)">blue</button>"
+    <script>
+        function changehead(color){
+            document.body.style.backgroundColor=color
+        }
+        function changehead(color){
+            var c=document.getElementById("h")
+            c.style.background=color
+        }
+    </script>
+
+    
+</body>
+</html>
